@@ -9,7 +9,7 @@
 
 在最初开开发package的时候，还属于一种刀耕火种的阶段。没有什么自动化的工具。发布package的时候，都是手动修改**版本号**。如果packages数量不多还可以接受。但是当数量逐渐增多的时候，且这些packages之间还有依赖关系的时候，对开发人员来说，就很痛苦了。工作不仅繁琐，而且需要用掉不少时间。
 
-举个例子，如果你要维护两个package。分别为module-1,module-2。
+举个例子，如果你要维护两个package。分别为module-1,module-fatbear007。
 下面是这两个package的依赖关系。
 ```
 /////////module-1   package.json
@@ -37,17 +37,17 @@
 
 "dependencies": {
 
-"module-2": "^1.0.0"
+"module-fatbear007": "^1.0.0"
 
 }
 
 }
 ```
 ```
-///// module-2  package.json
+///// module-fatbear007  package.json
 {
 
-"name": "module-2",
+"name": "module-fatbear007",
 
 "version": "1.0.0",
 
@@ -69,9 +69,9 @@
 
 }
 ```
-在这样的环境下，module-1是依赖module-2的。如果module-2有修改，需要发布。那么你的工作有这些。
+在这样的环境下，module-1是依赖module-fatbear007的。如果module-fatbear007有修改，需要发布。那么你的工作有这些。
 
- 1. 修改module-2版本号，发布。
+ 1. 修改module-fatbear007版本号，发布。
  2. 修改module-1的依赖关系，修改module-1的版本号，发布。
 
 这还仅仅只有两个package,如果依赖关系更复杂，大家可以想想发布的工作量有多大。

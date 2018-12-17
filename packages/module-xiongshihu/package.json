@@ -1,5 +1,5 @@
 {
-  "name": "module-1",
+  "name": "module-fatbear007",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "eslint": "^4.18.1",
     "husky": "^0.15.0-rc.8",
     "lint-staged": "^7.0.0",
-    "module-2": "^1.0.3",
+    "module-fatbear007": "^1.0.3",
     "prettier": "^1.10.2"
   },
   "lint-staged": {
@@ -23,5 +23,5 @@
       "git add"
     ]
   },
-  "gitHead": "646b09d8d3d35cb59ee8f89650c21d556be374d5"
+  "gitHead": "50b223c1136a322a0b9d851754db281e03d2a425"
 }
