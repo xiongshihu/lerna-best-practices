@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ../../node_modules/rimraf/bin -rf lib && node ../../node_modules/babel-cli/bin/babel ./src --out-dir lib --ignore __tests__",
-    "prepublish": "yarn run compile",
+    "publish": "yarn run compile",
     "compile": "yarn run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "50b223c1136a322a0b9d851754db281e03d2a425"
+  "gitHead": "3f50e0a922452b37c2eb90c2702a24bbcbdf2527"
 }
