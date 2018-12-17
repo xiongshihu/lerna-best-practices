@@ -1,6 +1,6 @@
 {
   "name": "module-xiongshihu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "eslint": "^4.18.1",
     "husky": "^0.15.0-rc.8",
     "lint-staged": "^7.0.0",
-    "module-fatbear007": "^1.0.3",
+    "module-fatbear007": "^1.0.4",
     "prettier": "^1.10.2"
   },
   "lint-staged": {
