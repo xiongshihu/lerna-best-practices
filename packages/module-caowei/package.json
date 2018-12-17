@@ -1,5 +1,5 @@
 {
-  "name": "module-fatbear007",
+  "name": "module-caowei",
   "version": "1.0.6",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "85df9b41fdc0fd92903a282753050f0c1f561b55"
+  "gitHead": "4087a94eb8ba142ce4a90689209d2c86d735ea17"
 }
